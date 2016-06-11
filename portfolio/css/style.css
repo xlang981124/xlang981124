@@ -1,0 +1,95 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 100%;
+	height: 1000px;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background: url(../img/BG.jpg);
+}
+#navtop {
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	    margin-right: 50px;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+.nav {
+	margin-left: 10px;
+	margin-top: 110px;
+}
+.nav img {
+	width: 70%;
+	height: auto;
+}
+.logo img{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+#line img{
+	position: absolute;
+	top: 100px;
+	left: 5px;
+}
+.slick {
+	padding-top: 65px;
+}
+/*-------phototgraph------------*/
+.pic {
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 130px;
+}
+.pic img {
+	width: 300px;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+/*------------animation-------------*/
+.gif_slide{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	width: 700px;
+}
+.gif_slide img{
+	margin-top: 55px;
+	margin-bottom: 20px;
+	width: 700px;
+	height: auto;
+}
+.descrip {
+	color: #FFF;
+	font-size: 20px;
+	text-align: center;
+}
+
+/*---------contact-------------*/
+
+.contact_use {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	width: 350px;
+	height:auto
+	}
+.fbytig {
+	margin-left: auto;
+    margin-right: auto;
+	width: 350px;
+    height: auto;
+	padding-top:20px;
+	
+	}
+
